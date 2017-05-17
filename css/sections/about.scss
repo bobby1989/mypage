@@ -1,0 +1,76 @@
+.maincontent {
+	float: right;
+	width: 73%;
+}
+
+.about__left {
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.about__picture {
+	display: inline-block;
+	border: 2px solid #fff;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.about__picture-item {
+	display: block;
+	width: 220px;
+	height: 220px;
+}
+
+.about__right {
+	float: right;
+	width:56%;
+}
+
+.content-title {
+	font-family: "FiraSansMedium";
+	font-size: 34px;
+	color: #414141;
+	margin-bottom: 10px;
+}
+
+.about__text {
+	height: 300px;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.text-block {
+	color: #646464;
+	font-size: 18px;
+}
+
+.text-block p{
+	margin: 0;
+	margin-bottom: 4px;
+	color: #646464;
+	font-family: "FiraSansLight";
+}
+
+.about__button {
+	text-align: right;
+}
+
+.about__button-link {
+	text-decoration: none;
+	font-family: "FiraSansBold";
+	color: #e85f61;
+	border: 2px solid #e85f61;
+	display: inline-block;
+	border-radius: 35px;
+	padding: 9px 12px;
+	font-size: 14px;
+	&:hover {
+		background-color: #e85f61;
+		color: #fff;
+	}
+}
+
+.about__button-link-icon {
+	margin-right: 6px;
+}

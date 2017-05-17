@@ -1,0 +1,147 @@
+.header {
+	background: #fff;
+	box-shadow: 1px 1px 3px 0 rgba(0,0,0, .2);
+	margin-bottom: 25px;
+}
+
+.header__container {
+	height: 80px;
+}
+
+.header__left {
+	width: 50%;
+	float: left;
+}
+
+.header__right {
+	float: right;
+	width: 20%;
+}
+
+.header__right {
+	text-align: right;
+}
+
+.user {
+	margin-top: 10px;
+}
+
+.user__photo {
+	display: inline-block;
+	width: 62px;
+	height: 62px;
+	overflow: hidden;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.user__photo-pic {
+	max-height: 62px;
+	max-width: 62px;
+	
+}
+
+.user__name {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	margin-left: 14px;
+}
+
+.contacts {
+	margin-top: 32px;
+	position: relative;
+	display: inline-block;
+}
+
+.contacts:hover .contacts__link {
+	color: #e85f61;
+	border-bottom: 1px dashed #e85f61;
+
+}
+
+.contacts__link {
+	font-size: 18px;
+	position: relative;
+	text-decoration: none;
+	font-family: "FiraSansBold";
+	color: #33c1e3;
+	line-height: 1.2;
+	-webkit-transition: .3s;
+	transition: .3s;
+	border-bottom: 1px dashed #33c1e3;
+}
+
+
+.contacts__menu {
+	width: 250px;
+	position: absolute;
+	text-align: left;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #dedede;
+	top: 30px;
+	padding: 10px 20px;
+	left: -9999px;
+	right: -64px;
+	z-index: 10;
+}
+
+.contacts__menu:before {
+	content: '';
+	height: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -20px;
+
+}
+
+.contacts:hover .contacts__menu {
+	left: -60%;
+}
+
+.contacts__item {
+	margin-bottom: 5px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.triangle {
+	position: absolute;
+	height: 10px;
+	width: 20px;
+	border: 10px solid transparent;
+	left: 50%;
+	top: -20px;
+	border-bottom: 10px solid #dedede;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 0;
+		left: -10px;
+		top: -9px;
+		border: 10px solid transparent;
+		border-bottom: 10px solid #fff;
+	}
+}
+
+.contacts__item .fa {
+	color: #33c1e3;
+	padding-right: 5px;
+}
+
+.contacts__item-link {
+	font-family: "FiraSansLight";
+	text-decoration: none;
+	color: #414141;
+	font-size: 17px;
+}

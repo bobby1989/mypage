@@ -1,0 +1,58 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+		max-width: 320px;
+	}
+
+	.header .header__left {
+		width: 80%;
+	}
+
+	.header__right {
+		width: 20%;
+	}
+
+	.user__name {
+		width: 65%;
+	}
+
+	.nav__item {
+		margin-left: 15px;
+	}
+
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.nav__list {
+		text-align: center;
+	}
+
+	.nav__link-icon {
+		display: none;
+	}
+
+	.nav__link-text {
+		font-size: 14px;
+	}
+	
+	.contacts:hover .contacts__menu {
+		left: auto;
+	}
+	
+	.portfolio__list {
+		text-align: center;
+	}
+
+	.pagecontent {
+		padding: 0;
+	}	
+
+	.about__text {
+		margin-bottom: 20px;
+	}
+
+
+}	

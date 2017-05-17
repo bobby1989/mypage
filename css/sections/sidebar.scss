@@ -1,0 +1,26 @@
+.sidebar {
+	float: left;
+	width: 23%;
+}
+
+.nav__list {
+	text-align: right;
+}
+
+.nav__link {
+	display: block;
+	padding: 10px 20px 10px 0;
+	text-decoration: none;
+	color: #414141;
+	font-size: 18px;
+	border-right: 6px solid transparent;
+	&:hover {
+		color: #33c2e3;
+	}
+}
+
+.nav__item_active .nav__link {
+	color: #33c1e3;
+	border-image:linear-gradient(to bottom, #32c4e5, #4db2ce) 0 100%;
+}
+
